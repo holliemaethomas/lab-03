@@ -16,7 +16,7 @@ fs.readFile(`${__dirname}/files${file}`, (err, data) => {
       if (err) {
         throw err;
       }
-      let contents = data.toString().trim();
+      contents = data.toString().trim();
       console.log('File Contents', contents);
     });
   });
